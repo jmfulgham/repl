@@ -4,7 +4,8 @@
   "description": "Take home assignment for backend candidates at Rooms To Go.",
   "main": "app.js",
   "scripts": {
-    "test": "npx mocha test"
+    "test": "npx mocha test",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,19 @@
   "bugs": {
     "url": "https://github.com/RoomstoGoDigital/backend-take-home/issues"
   },
-  "homepage": "https://github.com/RoomstoGoDigital/backend-take-home#readme"
+  "homepage": "https://github.com/RoomstoGoDigital/backend-take-home#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "commander": "^4.0.1",
+    "express": "^4.17.1",
+    "figlet": "^1.2.4",
+    "inquirer": "^7.0.0",
+    "lodash": "^4.17.15",
+    "mongodb": "^3.3.5",
+    "mongoose": "^5.7.13",
+    "nodemon": "^2.0.1",
+    "touch": "^3.1.0"
+  }
 }

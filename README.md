@@ -1,17 +1,17 @@
-# CLI/Mongo REPL
+# CLI/Mongo REPL Challenge
 (A work in progress)
 
 ## How to run the program
-1. Clone your repository
-2. npm install (or pip install, if your language does not have a installer please provide a bash script called install.sh)
-3. npm start (another way to run the app)
+1. Clone the repository
+2. npm install 
+3. npm start 
 
 ## Problem Statement
 Create a command line REPL to manage product inventory.
 
 Managing product inventory requires adding products to a product catalog and adding warehouses to store the products.
 
-We will use 7 commands to enable this functionality:
+There are 7 commands to use this functionality:
 1. ADD PRODUCT
 2. ADD WAREHOUSE
 3. STOCK
@@ -21,7 +21,7 @@ We will use 7 commands to enable this functionality:
 7. LIST WAREHOUSE
 
 ## Details
-- Our application will take in user input one line at a time.
+- The application will take in user input one line at a time.
 
 Bold text denotes text that will be entered as-is, italics denote arguments that will be replaced by a value. Optional arguments are surrounded by square brackets ([]).
 
